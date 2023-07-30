@@ -1,0 +1,50 @@
+@import"header.scss";
+@import"responsive.scss";
+// google font
+
+
+/* 
+  common style
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+::selection{
+    color: red;
+    background-color: black;
+}
+.container{
+    max-width: 1150px;
+    width: 95%;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    width: 294px;
+    height: 68px;
+    background-color: #eb7d4b;
+    display:inline-block;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 4px;
+    font-weight:normal;
+}

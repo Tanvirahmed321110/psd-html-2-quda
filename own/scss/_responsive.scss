@@ -1,0 +1,235 @@
+
+@media screen and (min-width:275px) and (max-width:480px){
+    
+    #header-id{
+        width:100%;
+        height: auto;
+        
+        .header-text{
+            padding:50px 0 0 0 ;
+            h1{
+               font-size:29px;
+               line-height: 40px;
+            }
+        } // header-text
+        .header-btn-container{
+            padding-bottom: 35px;
+            a{
+                width: 80%;
+                height: 55px;
+            }
+        }
+    }
+    .header-container{
+        width: 100%;
+        flex-direction: column;
+        
+        .header-right ul{
+            padding-top: 25px;
+            flex-direction: column; 
+            
+            li{
+                background-color: orange;
+                width:80%;
+                margin: 5px 0;
+                border-radius:5px;
+                text-align: center;
+                
+                &:hover{
+                    background-color: rgb(145, 58, 58);
+                }
+                a{
+                    font-weight: 600;
+                    letter-spacing: .8px;
+                }
+            }
+        } // ul
+        
+    } //  header-container
+    
+    
+    // services
+    #services{
+        .services-head{
+            padding: 35px 0 0 0;
+            h2{
+                font-size: 28px;
+            }
+            p{
+                text-align: center;
+            }
+        } // services head
+        
+        .services-container{
+            padding-bottom:50px;
+            flex-direction: column;
+            gap: 25px;
+            .service-item{
+                width: 98% !important;
+            }
+        }
+    }
+    
+    
+    // team
+  #team{
+    .team-wraper{
+        
+        .team-head{
+            h2{ padding-top: 35px;
+                font-size: 28px ;
+            }
+        }  //     .team-head
+        .team-container{
+            flex-direction: column;
+            padding: 25px 0 55px 0;
+            gap: 10px;
+            .team-child{
+                width: 98%;
+            }
+        }
+    }  //.team-wraper
+  }
+
+  
+//   progress
+#progress{
+    padding-bottom: 25px;
+    .progress-wraper{
+        h3{
+            font-size: 28px;
+            padding-top: 35px;
+            
+            &::after{
+                left: 35%;
+            }
+        }
+        .skill-info{
+            padding-bottom: 25px;
+        }
+        .progress-container{
+            flex-direction: column; height: auto;
+            
+            .progress-item{
+                width: 98%;
+            }
+        }
+    } // progress wraper
+}
+
+
+
+// portfolio
+#portfolio{
+    padding-bottom: 5px;
+    .portfolio-wraper{
+        padding-top: 55px;
+        h3{
+            font-size:35px;
+            padding-bottom: 25px;
+        }
+        .portfolio-header-container{
+            flex-direction: column;
+            
+            li{
+                width:75% ;
+                margin: 5px 0;
+                padding-bottom: 15px;
+            }
+        }  // .portfolio-header-container
+        
+        .portfolio-container{
+            grid-template-columns: 1fr;
+        } // .portfolio-container
+        
+        .protfolio-btn-container{
+            padding: 50px 0;
+            a{
+                width: 75%;
+            border-radius: 10px;
+            }
+        }
+    }
+}
+
+
+
+
+// about
+#about{
+    .about-waper{
+        padding-top: 50px;
+        h2{
+            font-size: 27px;
+        }
+        .about-container{
+         grid-template-columns: 1fr;
+            .about-item{
+                width: 98%;
+                
+            .client-comment{
+                p{
+                    padding-right: 0px !important;
+                }
+                .client-name-post{
+                    padding-top: 15px !important;
+                    h4{
+                        font-size:17px !important;
+                        word-spacing: 4px;
+                    }
+                }
+            }
+            }
+        }
+    }
+}
+    
+
+
+
+// contact 
+#contact{
+    .contact-waper{
+        padding-top: 40px;
+        h2{
+            font-size: 26px;
+            
+            &::after{
+                transform: translate(-36%,-50%);
+            }
+        }
+        .contact-container{
+            padding-top: 60px;
+            width: 95%;
+            input{
+                width: 100%;
+                margin:10px 0;
+            }
+            textarea{
+                width: 100%;
+            }
+        }
+        .btn-container{
+            padding-bottom: 50px;
+            .btn{
+                width: 98%;
+            }
+        }
+    }
+}
+
+// footer
+#footer{
+    .footer-container{
+        flex-direction: column;
+        
+        a{  display:block;
+            font-size: 16px;
+            margin: 0px 0;
+            padding: 2px;
+            border-bottom: 1px solid red;
+            width: 80%;
+        }
+     }
+}
+}

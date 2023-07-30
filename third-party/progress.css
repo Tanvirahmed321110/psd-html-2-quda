@@ -1,0 +1,61 @@
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    padding: 1em;
+    transform: rotate(-90deg);
+    width: 100%;
+  }
+  
+  svg.radial-progress circle {
+    fill: rgba(0,0,0,0);
+    stroke: #fff;
+    stroke-dashoffset: 219.91148575129; 
+    stroke-width: 7;
+  }
+  
+  svg.radial-progress circle.incomplete { opacity: 0.25; }
+  
+  svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+  
+  svg.radial-progress text {
+    fill: #fff;
+    text-anchor: middle;
+  }
+  
+
+  
+  
+  
+  
+  /* edit me  */
+  svg.radial-progress text {
+    fill: #361d7a;
+    text-anchor: middle;
+    font-weight: bold;
+    font-size:19px;
+}
+svg.radial-progress:hover {
+    border-radius: 15px;
+    background-color: rgb(129, 124, 124);
+    color: white;
+}
+  .progress-container .progress-item:nth-child(1) svg.radial-progress circle {
+   
+    fill: rgba(0,0,0,0);
+    stroke: rgb(68, 58, 39);
+}
+.progress-container .progress-item:nth-child(2) svg.radial-progress circle {
+   
+    fill: rgba(0,0,0,0);
+    stroke: rgb(231, 160, 27);
+}
+.progress-container .progress-item:nth-child(3) svg.radial-progress circle {
+   
+    fill: rgba(0,0,0,0);
+    stroke: rgb(31, 55, 121);
+}
+.progress-container .progress-item:nth-child(4) svg.radial-progress circle {
+   
+    fill: rgba(0,0,0,0);
+    stroke: rgb(156, 116, 40);
+}
