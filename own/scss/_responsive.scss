@@ -1,5 +1,75 @@
 
-@media screen and (min-width: 275px) and (max-width: 900px){
+@media screen and (min-width:610px) and (max-width: 1100px){
+    #services{
+        
+        .services-container{
+            padding-bottom:50px;
+            gap: 15px;
+            flex-wrap: wrap;
+            .service-item{
+                height: 310px;
+                width:48% !important;
+            }
+        }
+    }
+    
+    
+    #team{
+        .team-wraper{
+            
+            .team-container{
+                flex-wrap: wrap;
+                padding: 25px 0 55px 0;
+                gap: 10px;
+                .team-child{
+                    width: 48%;
+                }
+            }
+        }  //.team-wraper
+      }
+      
+      .contact-container{
+        padding-top: 60px;
+        width: 95%;
+        input{
+            width: 100%;
+            margin:10px 0;
+        }
+        textarea{
+            width: 100%;
+        }
+    }
+    
+    
+    
+// contact 
+#contact{
+    .contact-waper{
+        
+        
+        .contact-container{
+            padding-top: 60px;
+            width: 95%;
+            input{
+                width: 100%;
+                margin:10px 0;
+            }
+            textarea{
+                width: 100%;
+            }
+        }
+        .btn-container{
+            padding-bottom: 50px;
+            .btn{
+                width:76%;
+            }
+        }
+    }
+}
+}
+
+
+@media screen and (min-width: 275px) and (max-width: 609px){
     
     #header-id{
         width:100%;

@@ -438,7 +438,54 @@
   opacity: 0.7;
 }
 
-@media screen and (min-width: 275px) and (max-width: 900px) {
+@media screen and (min-width: 610px) and (max-width: 1100px) {
+  #services .services-container {
+    padding-bottom: 50px;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  #services .services-container .service-item {
+    height: 310px;
+    width: 48% !important;
+  }
+  #team .team-wraper .team-container {
+    flex-wrap: wrap;
+    padding: 25px 0 55px 0;
+    gap: 10px;
+  }
+  #team .team-wraper .team-container .team-child {
+    width: 48%;
+  }
+  .contact-container {
+    padding-top: 60px;
+    width: 95%;
+  }
+  .contact-container input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .contact-container textarea {
+    width: 100%;
+  }
+  #contact .contact-waper .contact-container {
+    padding-top: 60px;
+    width: 95%;
+  }
+  #contact .contact-waper .contact-container input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  #contact .contact-waper .contact-container textarea {
+    width: 100%;
+  }
+  #contact .contact-waper .btn-container {
+    padding-bottom: 50px;
+  }
+  #contact .contact-waper .btn-container .btn {
+    width: 76%;
+  }
+}
+@media screen and (min-width: 275px) and (max-width: 609px) {
   #header-id {
     width: 100%;
     height: auto;
