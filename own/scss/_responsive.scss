@@ -66,10 +66,22 @@
         }
     }
 }
+
+
+
+// about
+#about{
+    .about-waper{
+
+        .about-container{
+         grid-template-columns:repeat(1,1fr);
+        }
+    }
+}
 }
 
 
-@media screen and (min-width: 275px) and (max-width: 709px){
+@media screen and (min-width: 275px) and (max-width: 710px){
     
     #header-id{
         width:100%;
